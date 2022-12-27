@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root  //este tot ce este in nav , doar cu o prioritate mai mare 
+{
+--clr:#222327;
+
+//am personalizat si am utilizat 
+}
+
+
+
+
+
+
+.nav{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 23vh;
+background: var(--clr);
+
+                
+        .navigation{
+            position: relative;
+            height: 100px;
+                width: 400px;
+            background: #fff;
+            border-radius: 10px;
+                    
+                            ul{
+                            display: flex;
+                            justify-content: center;
+                            align-items: baseline;
+                            
+                             margin-top: 40px;
+                            width: 350px;
+                            
+                            .indicator
+                            {position: absolute;
+                            top:-24px;
+                            left: 56px;
+                            width: 70px;
+                            height: 70px;
+                            background: rgb(110, 212, 15);
+                            border-radius: 50%;
+                            border: 6px solid var(--clr);
+                            
+                            
+                            }
+                      
+                           
+
+
+
+                                        li{
+                                        position: relative;
+                                        list-style: none;
+                                        width:70px ;
+                                        height: 70px;
+                                        z-index:1 ;
+                                         margin-left: 65px;
+
+                               
+                                       
+
+
+                                                            a{
+                                                                position: relative;
+                                                                display: flex;
+                                                                justify-content: center;
+                                                                align-items: center;
+                                                                flex-direction: column;
+                                                                width: 100%;
+                                                                text-align: center;
+                                                                font-weight: 500;
+
+                                                           
+                                                           
+                                                                .icons {
+                                                                   position: relative;
+                                                                   display: block;
+                                                                   line-height:75px;
+                                                                   font-size: 1.5em;
+                                                                   text-align: center;
+                                                                   transition: 0.5s;
+                                                                   color: var(--clr);
+                                                                  }   
+                                                                
+                                                                  .text {
+
+                                                                    position: absolute;
+                                                                    color: var(--clr);
+                                                                    font-weight: 400;
+                                                                    font-size: 0.75em;
+                                                                    letter-spacing: 0.05em;
+                                                                    transition: 0.5s;
+                                                                    opacity: 0;
+                                                                    transform: translateY(20px);
+                                                                    // margin-top: 30px;
+                                                                         
+
+                                                                  }
+                                                                  
+                                                                    
+                                                               
+                                                           
+                                                            }
+
+
+
+
+
+                                                           
+
+                                                    }
+                    
+                                    } 
+
+
+
+
+
+
+            
+                        }  //navigation
+
+
+
+
+
+
+       //animation  
+
+.navigation ul li.active a .icons {
+    transform: translateY(-38px);
+    //optimal -12px
+
+                   }
+.navigation ul li.active a .text {
+opacity: 1;
+transform: translateY(18px);
+
+}
+
+
+// .navigation ul li:nth-child(1).active ~ .indicator {
+
+//     transform:translateX(calc(70*0));
+//  }
+ .navigation ul li:nth-child(2).active ~ .indicator {
+
+    transform:translateX(calc(116px * 1));
+ }
+ .navigation ul li:nth-child(3).active ~ .indicator {
+
+    transform:translateX(calc(117px * 2));
+ }
+
+
+
+
+
+
+// .indicator::before
+// {
+//     content: '';
+//     position: absolute;
+//     top: 23%;
+//     left: -27px;
+//     width: 26px;
+//     height: 26px;
+//     background: transparent;
+// border-top-right-radius: 20px;
+// box-shadow: 0px -10px 0 0 var(--clr);
+
+// }
+
+
+
+
+// .indicator::after
+// {
+//     content: '';
+//     position: absolute;
+//     top: 22%;
+//     right: -16px;
+//     width: 20px;
+//     height: 20px;
+//     background: transparent;
+// border-top-right-radius: 20px;
+// box-shadow: 0px -10px 0 0 var(--clr);
+
+// }
+
+
+
+
+
+
+
+} //nav
+
+
+
+
+
+
+
+#weather{
+   position: relative;
+   display: flex;
+//    justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    left: 620px;
+    top: -146px;
+    width: 300px;
+    height: 140px;
+    border-radius: 13px;
+}
+
+@media only screen and (max-width:1444px)
+{
+
+    #weather{
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+         left: 520px;
+         top: -146px;
+         width: 300px;
+         height: 140px;
+         border-radius: 13px;
+     }
+     
+
+    }
+
+    @media only screen and (max-width:1248px)
+    {
+
+        #weather{
+            position: relative;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+             left: 420px;
+             top: -146px;
+             width: 300px;
+             height: 140px;
+             border-radius: 13px;
+         }
+         
+    }    
+
+
+    @media only screen and (max-width:1050px)
+    {
+
+        #weather{
+            position: relative;
+            display: none;
+            align-items: center;
+            flex-direction: column;
+             left: 420px;
+             top: -146px;
+             width: 300px;
+             height: 140px;
+             border-radius: 13px;
+         }
+         
+    }    
