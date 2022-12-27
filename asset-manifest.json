@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Emploees/static/css/main.35c3a78e.css",
+    "main.js": "/Emploees/static/js/main.fc0d6eb0.js",
+    "static/media/j3.jpg": "/Emploees/static/media/j3.e7df981eba0500fecd79.jpg",
+    "static/media/j6.jpg": "/Emploees/static/media/j6.951ef3ddbc8023bc15c5.jpg",
+    "static/media/j4.jpg": "/Emploees/static/media/j4.a0d8821c735e0a83f391.jpg",
+    "static/media/j2.jpg": "/Emploees/static/media/j2.df0c3ed752c7607cd191.jpg",
+    "static/media/j5.jpg": "/Emploees/static/media/j5.2f5fb6eabd2e1c742849.jpg",
+    "static/media/j7.jpg": "/Emploees/static/media/j7.2801b911148371cc9f19.jpg",
+    "static/media/j1.jpg": "/Emploees/static/media/j1.ef1585508b6f140e5bce.jpg",
+    "static/media/u1.jpg": "/Emploees/static/media/u1.ffb3aedd517cc8ed34e9.jpg",
+    "static/media/u5.jpg": "/Emploees/static/media/u5.c4f80b29441eba3065eb.jpg",
+    "static/media/u2.jpg": "/Emploees/static/media/u2.4090ab40cd3fdcccdb9f.jpg",
+    "static/media/u4.jpg": "/Emploees/static/media/u4.39d2ac83fb5f00893724.jpg",
+    "static/media/u3.jpg": "/Emploees/static/media/u3.3c763760a68f452b416f.jpg",
+    "index.html": "/Emploees/index.html",
+    "main.35c3a78e.css.map": "/Emploees/static/css/main.35c3a78e.css.map",
+    "main.fc0d6eb0.js.map": "/Emploees/static/js/main.fc0d6eb0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35c3a78e.css",
+    "static/js/main.fc0d6eb0.js"
+  ]
+}
